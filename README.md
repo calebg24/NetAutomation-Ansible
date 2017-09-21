@@ -1,2 +1,10 @@
 # NetAutomation-Ansible
 Test repository to be used with Net Automation course - IPSpace.net
+
+# My lab setup consists of running Anisible on a Ubuntu VM created with Vagrant and running
+within Virtual box on my desktop. I am running Ubuntu version 14.04.5. For now, I have 1 physical Juniper
+EX2200 setup that I can access. I have already confirmed that I can run simple ad-hoc ansible commands to connect
+to it. I will be using the default access method (ssh key-based authentication). The switch is in a managment network 
+that is accessible by my desktop. I also have ansible running on a operational VM in our vSphere 6.0 cluster. This VM
+already has access to the majority of our core routers/switches in our network. I will also be making various changes 
+to this network as I learn.
